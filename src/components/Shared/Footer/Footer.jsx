@@ -14,7 +14,7 @@ const Footer = () => {
            <img src={GSR} className=" w-[90%]  absolute top-1/2 transform -translate-y-1/2"/>
          
              </div>
-            <p className="text-white">Your New Smile Starts Here</p>
+            <p className="text-white">Elevate your brand</p>
           </div>
         </Slide>
         
