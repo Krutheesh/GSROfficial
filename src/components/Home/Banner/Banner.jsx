@@ -1,6 +1,5 @@
 import React from "react";
-import "./Banner.css";
-import digi from "./video/digital.mp4"
+
 import { Link } from "react-scroll";
 import { Slide } from "react-awesome-reveal"
 const Banner = () => {
@@ -17,7 +16,7 @@ const Banner = () => {
         </h1>
           
           <div className="text-center">
-          <Link to="contact" activeClass="active" spy={true} smooth={true} offset={-35} duration={700}>
+          <Link to="services" activeClass="active" spy={true} smooth={true} offset={-35} duration={700}>
           <button className="mt-8  rounded px-[2rem] py-3 bg-red-600  text-white text-lg font-bold">
             Our Services
           </button>

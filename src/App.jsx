@@ -1,24 +1,19 @@
-import React from 'react'
-import Home from './components/Home/Home/Home'
-import Navbar from './components/Shared/Navbar/Navbar'
-import Contact from './components/Contact/Contact'
+import React from "react";
+import Home from "./components/Home/Home/Home";
+import Navbar from "./components/Shared/Navbar/Navbar";
 
-import Footer from './components/Shared/Footer/Footer'
+
+import Footer from "./components/Shared/Footer/Footer";
 function App() {
   return (
     <div>
-   
-    
-      <Navbar/>
-      
-      <Home/>
-     
-      <Footer/>
-  
-      
+      <Navbar />
+
+      <Home />
+
+      <Footer />
     </div>
-    
-  )
+  );
 }
 
-export default App
+export default App;

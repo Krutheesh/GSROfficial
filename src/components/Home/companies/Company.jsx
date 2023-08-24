@@ -6,19 +6,19 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import c1 from '../../../images/OurClients/c1.png'
-import c2 from '../../../images/OurClients/c2.png'
+import c2 from '../../../images/OurClients/c2.jpg'
 import c3 from '../../../images/OurClients/c3.png'
 import c4 from '../../../images/OurClients/c4.png'
 
 import c5 from '../../../images/OurClients/c5.jpg'
 import c6 from '../../../images/OurClients/c6.png'
-import c8 from '../../../images/OurClients/c8.png'
+import c8 from '../../../images/OurClients/c8.jpg'
 import c9 from '../../../images/OurClients/c9.png'
 import c10 from '../../../images/OurClients/c10.png'
 import c7 from '../../../images/OurClients/c7.jfif'
 import c11 from '../../../images/OurClients/c11.jfif'
 
-const images = [c1,c2,c3,c4,c5,c6,c7,c8,c9,c10]
+const images = [c1,c2,c4,c5,c6,c8,c9,c10]
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';

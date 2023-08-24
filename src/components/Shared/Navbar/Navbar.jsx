@@ -30,7 +30,7 @@ const Navbar = () => {
         >
           <ul className="flex items-center gap-1  text-lg">
             {menuLinks?.map((menu, i) => (
-              <li key={i} className="px-6 hover:text-red-600">
+              <li key={i} className="px-6 hover:text-red-600 cursor-pointer">
                 <Link to={menu?.link} activeClass="active" spy={true} smooth={true} offset={-35} duration={700} >{menu?.name}</Link>
               </li>
             ))}
